@@ -4,7 +4,7 @@ Flutter Mobile Application Development-Android
 | No  | Project Name |
 | ------------- | ------------- |
 | 01  | Simple Dice Game  |
-| 02 | Simple Dice Game  |
+| 02 | BMI CAlculator  |
 
 
 | Ⓒ Next DIgit 2022 |
@@ -30,7 +30,7 @@ After the dice have come to rest, the sum of the spots on the two upward faces i
 ***You lose by rolling a 7ıbefore making your point.
 
 
-# 02 ==> Simple Dice Game
+# 02 ==> BMI Calculator
 <img src="https://user-images.githubusercontent.com/75982069/174432071-1eae7219-db34-44a1-a609-12a25f52347e.gif" width="300">
 
 **BMI Basic Info
