@@ -7,7 +7,7 @@ Flutter Mobile Application Development-Android
 | 02 | BMI Calculator  |
 
 
-| Ⓒ Next DIgit 2022 |
+| Ⓒ Next Digit 2022 |
 
 
 
@@ -27,7 +27,7 @@ After the dice have come to rest, the sum of the spots on the two upward faces i
 
 ***To win, you must continue rolling the dice until you "make your point” (i.e., roll that same point value). 
 
-***You lose by rolling a 7ıbefore making your point.
+***You lose by rolling a 7 before making your point.
 
 
 # 02 ==> BMI Calculator
