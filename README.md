@@ -10,6 +10,14 @@ Flutter Mobile Application Development-Android
 | Ⓒ Next Digit 2022 |
 
 
+# 03 ==> Hotel Zone
+<img src="https://user-images.githubusercontent.com/75982069/183727826-bd8e5f71-9620-4492-9d13-5a3236d63636.png" width="300">
+
+# 02 ==> BMI Calculator
+<img src="https://user-images.githubusercontent.com/75982069/174432071-1eae7219-db34-44a1-a609-12a25f52347e.gif" width="300">
+
+**BMI Basic Info
+![BMI BAsic](https://user-images.githubusercontent.com/75982069/174432088-c52298eb-65f4-4610-ae1e-e3102e5e638d.png)
 
 # 01 ==> Simple Dice Game
 <img src="https://user-images.githubusercontent.com/75982069/174432034-c5f56f65-530d-4ca8-bb7c-a0e65510478f.gif" width="300">
@@ -29,13 +37,4 @@ After the dice have come to rest, the sum of the spots on the two upward faces i
 
 ***You lose by rolling a 7 before making your point.
 
-
-# 02 ==> BMI Calculator
-<img src="https://user-images.githubusercontent.com/75982069/174432071-1eae7219-db34-44a1-a609-12a25f52347e.gif" width="300">
-
-**BMI Basic Info
-
-![BMI BAsic](https://user-images.githubusercontent.com/75982069/174432088-c52298eb-65f4-4610-ae1e-e3102e5e638d.png)
-
-# 03 ==> Hotel Zone
-<img src="https://user-images.githubusercontent.com/75982069/183727826-bd8e5f71-9620-4492-9d13-5a3236d63636.png" width="300">
+--------------------------------------------------------------------
