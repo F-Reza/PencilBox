@@ -5,9 +5,7 @@ Flutter Mobile Application Development-Android
 | ------------- | ------------- |
 | 01  | Simple Dice Game  |
 | 02 | BMI CAlculator  |
-| 02 | BMI Calculator  |
->>>>>>> 55759ffa11d0690f56f13ffc5eab3d74bb707ce4
-
+| 03 | Hotel Zone  |
 
 | Ⓒ Next Digit 2022 |
 
