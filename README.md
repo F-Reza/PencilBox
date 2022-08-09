@@ -36,3 +36,6 @@ After the dice have come to rest, the sum of the spots on the two upward faces i
 **BMI Basic Info
 
 ![BMI BAsic](https://user-images.githubusercontent.com/75982069/174432088-c52298eb-65f4-4610-ae1e-e3102e5e638d.png)
+
+# 03 ==> Hotel Zone
+<img src="https://user-images.githubusercontent.com/75982069/183727826-bd8e5f71-9620-4492-9d13-5a3236d63636.png" width="300">
