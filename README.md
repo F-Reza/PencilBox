@@ -5,7 +5,6 @@ Flutter Mobile Application Development-Android
 | ------------- | ------------- |
 | 01  | Simple Dice Game  |
 | 02 | BMI CAlculator  |
-| 03 | Hotel Zone  |
 
 | Ⓒ Next Digit 2022 |
 
