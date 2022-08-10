@@ -13,7 +13,6 @@ Flutter Mobile Application Development-Android
 
 # 04 ==> Quiz App
 <img src="https://user-images.githubusercontent.com/75982069/183996573-ffe50230-3f38-4b5f-82ab-2f948a3d10a9.gif" width="300">
-<img src="https://user-images.githubusercontent.com/75982069/183996573-ffe50230-3f38-4b5f-82ab-2f948a3d10a9.gif" width="300">
 
 # 03 ==> Hotel Zone
 <img src="https://user-images.githubusercontent.com/75982069/183727826-bd8e5f71-9620-4492-9d13-5a3236d63636.png" width="300">
