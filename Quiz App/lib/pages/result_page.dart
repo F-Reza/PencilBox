@@ -16,18 +16,31 @@ class ResultPage extends StatelessWidget {
         title: const Text('Result'),
         centerTitle: true,
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+      body: SizedBox(
+        width: double.maxFinite,
+        child: Stack(
           children: [
-            const Text('Correct Answers',style: TextStyle(fontSize: 24),),
-            Text('$rightAnswers', style: TextStyle(fontSize: 40),),
-            TextButton(
-              onPressed: () => Navigator.pushReplacementNamed(context, QuizPage.routeName),
-              child: const Text('Go Back',style: TextStyle(fontSize: 24),),
+            Positioned.fill(
+              child: Image.asset('images/bg-1.gif',
+                fit: BoxFit.cover,
+              ),
+            ),
+            Image.asset('images/giphy.gif', width: 180,),
+            Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text('Correct Answers',style: TextStyle(fontSize: 24),),
+                  Text('$rightAnswers', style: const TextStyle(fontSize: 40),),
+                  TextButton(
+                    onPressed: () => Navigator.pushReplacementNamed(context, QuizPage.routeName),
+                    child: const Text('Go Back',style: TextStyle(fontSize: 24),),
+                  ),
+                ],
+              ),
             ),
           ],
-        ),
+        )
       ),
     );
   }
@@ -38,5 +51,10 @@ class ResultPage extends StatelessWidget {
         rightAnswers++;
       }
     }
+    for (var element in questionList) {
+      element.givenAnswer='';
+    }
   }
+
+
 }

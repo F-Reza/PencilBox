@@ -35,7 +35,7 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void startTimer() {
-    timer = Timer.periodic(Duration(seconds: 1), (_) {
+    timer = Timer.periodic(const Duration(seconds: 1), (_) {
       if(tick <= 0) {
         timer.cancel();
         navigateToResult();
@@ -70,7 +70,7 @@ class _QuizPageState extends State<QuizPage> {
           )
         ],
       ),
-      body: Container(
+      body: SizedBox(
           width: size.width,
           height: size.height,
         child: Stack(
@@ -84,7 +84,8 @@ class _QuizPageState extends State<QuizPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('$timeString', style: TextStyle(fontSize: 50),),
+                  Text(timeString, style: const TextStyle(fontSize: 50),),
+                  const SizedBox(height: 10,),
                   if(!hasQuizStarted) ElevatedButton(
                     onPressed: () {
                       setState(() {
@@ -94,7 +95,7 @@ class _QuizPageState extends State<QuizPage> {
                     },
                     style: ElevatedButton.styleFrom(
                         primary: Colors.purple,
-                        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20)),
+                        padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15)),
                     child: const Text('Start Quiz'),
                   ),
                   if(hasQuizStarted) Expanded(
