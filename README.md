@@ -8,6 +8,7 @@ Flutter Mobile Application Development-Android
 | 03 | Hotel Zone  |
 | 04 | Quiz App  |
 | 05 | Employee MS  |
+| 06 | Contact App  |
 
 | Ⓒ Next Digit 2022 |
 
