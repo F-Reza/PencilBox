@@ -39,6 +39,7 @@ dependencies:
   image_picker:
   intl:
   path:
+  provider:
 
 
 dev_dependencies:

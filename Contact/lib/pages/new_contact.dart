@@ -2,9 +2,11 @@ import 'dart:io';
 
 import 'package:contact/db/sqf_lite_helper.dart';
 import 'package:contact/models/contact_model.dart';
+import 'package:contact/provider/contact_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:intl/intl.dart';
+import 'package:provider/provider.dart';
 
 class NewContact extends StatefulWidget {
   static const String routeName = '/new';
@@ -224,9 +226,9 @@ class _NewContactState extends State<NewContact> {
         image: _imagePath,
       );
       print(contact.toString());
-      final rowid = await DBHelper.insertContact(contact);
-      if(rowid>0){
-        contact.id =rowid;
+      final status = await Provider.of<ContactProvider>(context, listen: false)
+      .insertContact(contact);
+      if(status){
         Navigator.pop(context);
       }else{
         

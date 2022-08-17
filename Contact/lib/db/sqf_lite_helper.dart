@@ -34,4 +34,30 @@ class DBHelper{
     final db = await open();
     return db.insert(tableContact, contactModel.toMap());
   }
+
+
+  static Future<List<ContactModel>> getAllContact() async {
+    final db = await open();
+    final mapList = await db.query(tableContact);
+    return List.generate(mapList.length, (index) =>
+        ContactModel.fromMap(mapList[index])
+    );
+  }
+
+
+  static Future<ContactModel> getContactById(int id) async {
+    final db = await open();
+    final mapList = await db.query
+      (tableContact,where: '$tableContactColId = ?', whereArgs: [id]);
+    return ContactModel.fromMap(mapList.first);
+  }
+
+
+  static Future<int> updateFavorite(int id, int value) async {
+    final db = await open();
+    return db.update(tableContact,
+        {tableContactColFav : value},
+        where: '$tableContactColId = ?', whereArgs: [id]);
+  }
+
 }
