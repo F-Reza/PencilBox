@@ -9,9 +9,10 @@ import 'package:provider/provider.dart';
 void main() {
   runApp(MultiProvider(
     providers: [
-    ChangeNotifierProvider(create: (context) => ContactProvider() .. getAllContact())
+    ChangeNotifierProvider(create: (context) => ContactProvider() .. getAllContact()),
   ],
-  child: const MyApp()));
+  child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -26,9 +27,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: Contactlist.routeName,
+      initialRoute: ContactList.routeName,
       routes: {
-        Contactlist.routeName:(context) => Contactlist(),
+        ContactList.routeName:(context) => ContactList(),
         NewContact.routeName:(context) => NewContact(),
         ContactDetails.routeName:(context) => ContactDetails(),
       },
