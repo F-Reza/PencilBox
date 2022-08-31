@@ -14,7 +14,7 @@ Flutter Mobile Application Development-Android
 
 
 # 06 ==> Contact App
-<img src="https://user-images.githubusercontent.com/75982069/187749434-86d3252d-ada4-4a4f-b146-e86e93ca8c8b.png" width="300">
+<img src="https://user-images.githubusercontent.com/75982069/187749434-86d3252d-ada4-4a4f-b146-e86e93ca8c8b.png" width="600">
 
 # 05 ==> Employee MS
 <img src="https://user-images.githubusercontent.com/75982069/184331259-2e1264ad-2320-4e8a-a8aa-080ca75b5715.gif" width="300">
