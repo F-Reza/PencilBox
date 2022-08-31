@@ -1,6 +1,8 @@
 import 'dart:io';
 
+import 'package:contact/auth/auth_prefs.dart';
 import 'package:contact/pages/contact_details.dart';
+import 'package:contact/pages/login_page.dart';
 import 'package:contact/pages/new_contact.dart';
 import 'package:contact/provider/contact_provider.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +26,20 @@ class _ContactListState extends State<ContactList> {
       appBar: AppBar(
         title: const Text('Contact List'),
         centerTitle: true,
+        actions: [
+          PopupMenuButton(
+              itemBuilder: (context) => [
+                PopupMenuItem(
+                  onTap: () {
+                    setLoginStatus(false).then((value) => 
+                    Navigator.pushReplacementNamed
+                      (context, LoginPage.routeName));
+                  },
+                    child: Text('Logout')
+                ),
+              ]
+          ),
+        ],
       ),
       bottomNavigationBar: BottomAppBar(
         notchMargin: 6,

@@ -1,5 +1,7 @@
 import 'package:contact/pages/contact_details.dart';
 import 'package:contact/pages/contact_list.dart';
+import 'package:contact/pages/launcher_page.dart';
+import 'package:contact/pages/login_page.dart';
 import 'package:contact/pages/new_contact.dart';
 import 'package:contact/provider/contact_provider.dart';
 import 'package:flutter/material.dart';
@@ -27,11 +29,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: ContactList.routeName,
+      initialRoute: LauncherPage.routeName,
       routes: {
-        ContactList.routeName:(context) => ContactList(),
-        NewContact.routeName:(context) => NewContact(),
-        ContactDetails.routeName:(context) => ContactDetails(),
+        LauncherPage.routeName:(context) => const LauncherPage(),
+        LoginPage.routeName:(context) => const LoginPage(),
+        ContactList.routeName:(context) => const ContactList(),
+        NewContact.routeName:(context) => const NewContact(),
+        ContactDetails.routeName:(context) => const ContactDetails(),
       },
     );
   }
