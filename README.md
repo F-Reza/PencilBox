@@ -9,7 +9,7 @@ Flutter Mobile Application Development-Android
 | 04 | Quiz App  |
 | 05 | Employee MS  |
 | 06 | Contact App  |
-| 06 | Chat App  |
+| 07 | Chat App  |
 
 | Ⓒ Next Digit 2022 |
 
