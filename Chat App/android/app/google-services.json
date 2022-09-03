@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691930926575",
+    "project_id": "pencilbox-seip-db214",
+    "storage_bucket": "pencilbox-seip-db214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691930926575:android:6b95c714905c75e4a3ba1a",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691930926575-lhppnpcd01con7hesh6f0k0vulr9o488.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl22O5IKp-04nl6NHirqjBUzK4-XAaawo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691930926575-lhppnpcd01con7hesh6f0k0vulr9o488.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
